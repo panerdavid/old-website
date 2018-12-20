@@ -1,0 +1,175 @@
+body, html {
+    height: 95%;
+    margin: 15px;
+    background-color: #ffffff;
+}
+.slide-active {
+  background-color: #90ccf4;
+}
+.contactIcons {
+
+  text-align: center;
+
+
+}
+#flag {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  -webkit-transition: -webkit-transform 1.2s ease-in-out;
+          transition: transform 1.2s ease-in-out;
+}
+#flag:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+
+
+#about {
+  position: relative;
+  background-color: #f78888;
+
+}
+#nina {
+  background-color: #f3d250;
+}
+#greeting {
+  font-family: 'Julius Sans One', sans-serif;
+  color: #90ccf4;
+  font-size: 50px;
+  position: absolute;
+  top:0px;
+  right:10px;
+}
+
+#blurb {
+  font-family:'Libre Franklin', sans-serif;
+  font-size: 25px;
+  color: white;
+  opacity: 1.0;
+
+}
+#me {
+font-family: 'Libre Franklin', sans-serif;
+  font-size: 30px;
+  color: black;
+  opacity: 0.7;
+}
+.circle {
+  border-radius: 50%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+#li:hover {
+
+  opacity: 0.6;
+}
+#fb {
+  padding-left: 30px;
+  padding-right:30px;
+
+}
+#fb:hover {
+
+  opacity: 0.6;
+
+}
+#ig:hover {
+
+  opacity: 0.6;
+}
+#r {
+    padding-right: 30px;
+}
+#r:hover {
+
+  opacity: 0.6;
+}
+#name {
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+  color:black;
+  font-size: 90px;
+  opacity:0.8;
+}
+#me {
+  text-align: center;
+}
+
+
+.slideshow-container {
+  max-width: 300px;
+  max-height: 300px;
+  position: relative;
+  margin: auto;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  opacity:0.7;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color:  #90ccf4;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.2s;
+  animation-name: fade;
+  animation-duration: 1.2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .3}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .3}
+  to {opacity: 1}
+}
