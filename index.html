@@ -39,61 +39,87 @@
 				<div id="backContainer">
 					<a href="#site/main" class="backNav hvr-forward">></a>
 
-			</div>
-			<div class="slide active" data-anchor="main">
-				<div id="aboutContainer">
-					<a href="#site" class="aboutNav hvr-bob">ABOUT</a>
 				</div>
-				<div id="projectContainer">
-					<a href="#site/projects" class="projectNav hvr-bob">PROJECTS</a>
+				<div class="slide active" data-anchor="main">
+					<div id="aboutContainer">
+						<a href="#site" class="aboutNav hvr-float">ABOUT</a>
+					</div>
+					<div id="projectContainer">
+						<a href="#site/projects" class="projectNav hvr-float">PROJECTS</a>
+					</div>
+					<img id="flag" src="assets/img/phil.png" width="128" , height="128" alt="ph" />
+					<h1 id="name"> DAVID PANER </h1>
+					<p id='me'></p>
+					<div id="contactIcons">
+						<a href="https://www.linkedin.com/in/david-paner-626443173/" class="hvr-bob" target="_blank"><img id="li" src="assets/img/li.png" width="64" , height="64" alt="linkedin" /></a>
+						<a href="https://www.facebook.com/david.paner.5" class="hvr-bob" target="_blank"><img id="fb" src="assets/img/fb.png" width="64" , height="64" alt="facebook" /></a>
+						<a href="assets/David Paner Resume.pdf" class="hvr-bob" download><img id="r" src="assets/img/re.png" width="64" , height="64" alt="resume" />
+							<a href="https://www.instagram.com/davdpanr/" class="hvr-bob" target="_blank"><img id="ig" src="assets/img/instagram.png" width="64" , height="64" alt="instagram" /></a>
+					</div>
 				</div>
-				<img id="flag" src="assets/img/phil.png" width="128" , height="128" alt="ph" />
-				<h1 id="name"> DAVID PANER </h1>
-				<p id='me'></p>
-				<div id="contactIcons">
-					<a href="https://www.linkedin.com/in/david-paner-626443173/" class="hvr-bob" target="_blank"><img id="li" src="assets/img/li.png" width="64" , height="64" alt="linkedin" /></a>
-					<a href="https://www.facebook.com/david.paner.5" class="hvr-bob" target="_blank"><img id="fb" src="assets/img/fb.png" width="64" , height="64" alt="facebook" /></a>
-					<a href="assets/David Paner Resume.pdf" class="hvr-bob" download><img id="r" src="assets/img/re.png" width="64" , height="64" alt="resume" />
-						<a href="https://www.instagram.com/davdpanr/" class="hvr-bob" target="_blank"><img id="ig" src="assets/img/instagram.png" width="64" , height="64" alt="instagram" /></a>
-				</div>
-			</div>
 
-			<div id="nina" class="slide" data-anchor="projects">
-				<div id="prevContainer">
-					<a href="#site/main" class="backNav hvr-backward"><</a>
+				<div id="project" class="slide" data-anchor="projects">
+					<div id="prevContainer">
+						<a href="#site/main" class="backNav hvr-backward">
+							<</a> </div> <div class="row">
+								<div class="column">
+									<div class="thumbnail">
+										<img src="assets/img/1.jpg" />
+										<div class="caption">
+											<div class="title">
+												<div class="gray">Audioflexica</div>
+											</div>
+											<div class="date">October 2018</div>
+											<div class="info">&bull; Audio-responsive mesh that uses a Perlin noise
+												algorithm to randomize and animate the mesh’s terrain.
+											</div>
+											<div class="info">&bull; Utilized PYAudio, PyQtGraph, and OpenGL</div>
+											<div class="info">&bull; Created with Python </div>
+										</div>
+									</div>
+									<div class="thumbnailCaption">Audioflexica</div>
 
-			</div>
-				<div class="slideshow-container">
-					<div class="mySlides fade">
+									<div class="thumbnail">
+										<img src="assets/img/1.jpg" />
+										<div class="caption">
+											<div class="title">Video Object Detection</div>
+											<div class="date">November 2018</div>
+											<div class="info">&bull;Tensorflow based detection adapted to track custom objects through live video </div>
+											<div class="info">&bull; Created with Python with Codeology</div>
+										</div>
+									</div>
+									<div class="thumbnailCaption">Tensorflow Object Detection</div>
+								</div>
+								<div class="column">
+									<div class="thumbnail">
+										<img src="assets/img/1.jpg" />
+										<div class="caption">
+											<div class="title">
+													<div class="gray">Enigma Encryption</div>
+												</div>
+											<div class="date">October 2018</div>
+											<div class="info">&bull; Recreation of the German Enigma cipher</div>
+											<div class="info">&bull; Simulates the modular nature of the machine, allowing for different rotor settings and encryptions</div>
+											<div class="info">&bull; Created with Java in CS61B: Data Structures</div>
+										</div>
+									</div>
+									<div class="thumbnailCaption">Enigma Machine</div>
 
-						<img src="assets/img/1.jpg" style="width:100%">
-
+									<div class="thumbnail">
+										<img src="assets/img/1.jpg" />
+										<div class="caption">
+											<div class="title">Game of the Amazons</div>
+											<div class="date">November 2018</div>
+											<div class="info">&bull;Command line version of the chess variant: Game of the Amazons </div>
+												<div class="info">&bull;AI implemented with game trees and alpha-beta pruning </div>
+											<div class="info">&bull; Created with Java in CS61B: Data Structures </div>
+										</div>
+									</div>
+									<div class="thumbnailCaption">Game of the Amazons</div>
+								</div>
 					</div>
-					<div class="mySlides fade">
 
-						<img src="assets/img/2.jpg" style="width:100%">
-					</div>
-					<div class="mySlides fade">
-						<img src="assets/img/3.jpg" style="width:100%">
-					</div>
-					<div class="mySlides fade">
 
-						<img src="assets/img/4.jpg" style="width:100%">
-					</div>
-					<div class="mySlides fade">
-						<img src="assets/img/5.jpg" style="width:100%">
-					</div>
-
-					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-					<a class="next" onclick="plusSlides(1)">&#10095;</a>
-				</div>
-				<br>
-				<div style="text-align:center">
-					<span class="dot" onclick="currentSlide(1)"></span>
-					<span class="dot" onclick="currentSlide(2)"></span>
-					<span class="dot" onclick="currentSlide(3)"></span>
-					<span class="dot" onclick="currentSlide(4)"></span>
-					<span class="dot" onclick="currentSlide(5)"></span>
 				</div>
 			</div>
 
