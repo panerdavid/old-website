@@ -1,11 +1,13 @@
 <!doctype html>
 <html>
+
 <head>
 	<link rel="stylesheet" href="assets/css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
 	<script src="fullpage.min.js"></script>
 	<link rel="stylesheet" href="fullpage.css">
-	<script src = "assets/js/script.js"></script>
+	<script src="assets/js/script.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Libre+Franklin:100,400" rel="stylesheet">
@@ -14,75 +16,90 @@
 	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
 
 	<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
 
 	<div id="wrapper">
 		<div class="section">
-			<div id = "about" class="slide" data-anchor="aboutSlide">
-				  <div id="wowiloveher"><img class ="circle" src="assets/img/cute.jpg" width="350", height="350"></div>
-			<h1 id ="greeting"><b>HOW IS IT GOING? </b></h1>
-			<div id ="blurb">
-			<p>My name is David, and I'm from the Bay Area. I am a second year at UC Berkeley</a> studying Computer Science.</p>
-			<p>At Berkeley, I'm a part of  <a href="https://beam.berkeley.edu/" class="hvr-skew" target="_blank" class="des">Berkeley Engineers and Mentors (BEAM)</a> where I am given the
-				opportunity to exlore my passion for education and teach and mentor local elementary school students in STEM.
-				I am also a member of <a href="https://www.codeology.club/about" class="hvr-skew" target="_blank" class="des">Codeology</a> where I am given the opportunity to work on super interesting projects
-				and explore the wide variety of positions the tech industry has to offer.</p>
-			<p>So far my interests in technology include machine learning, data science, and software development. Any internship that involves my passions or interests would make me very grateful!</p>
-			<p>In my free time, I enjoy working out, cooking, hanging out with my friends, and learning jazz piano. Feel free to reach out to me at <a href="mailto:panerdavid@berkeley.edu?Subject=Hey%20David" class="hvr-skew" class="links">panerdavid@berkeley.edu</a>!</p>
+			<div id="about" class="slide" data-anchor="about">
+				<div id="wowiloveher"><img class="circle" src="assets/img/cute.jpg" width="350" , height="350"></div>
+				<h1 id="greeting"><b>HOW IS IT GOING? </b></h1>
+				<div id="blurb">
+					<p>My name is David, and I'm from the Bay Area. I am a second year at UC Berkeley</a> studying Computer Science.</p>
+					<p>At Berkeley, I'm a part of <a href="https://beam.berkeley.edu/" class="hvr-skew" target="_blank" class="des">Berkeley Engineers and Mentors (BEAM)</a> where I am given the
+						opportunity to exlore my passion for education and teach and mentor local elementary school students in STEM.
+						I am also a member of <a href="https://www.codeology.club/about" class="hvr-skew" target="_blank" class="des">Codeology</a> where I am given the opportunity to work on super interesting projects
+						and explore the wide variety of positions the tech industry has to offer.</p>
+					<p>So far my interests in technology include machine learning, data science, and software development. Any internship that involves my passions or interests would make me very grateful!</p>
+					<p>In my free time, I enjoy working out, cooking, hanging out with my friends, and learning jazz piano. Feel free to reach out to me at <a href="mailto:panerdavid@berkeley.edu?Subject=Hey%20David" class="hvr-skew" class="links">panerdavid@berkeley.edu</a>!</p>
 
-		</div>
-		</div>
-			<div class="slide active">
+				</div>
+				<div id="backContainer">
+					<a href="#site/main" class="backNav hvr-forward">></a>
 
-				 <img id = "flag" src="assets/img/phil.png" width="128", height="128" alt="ph"/>
-				<h1 id = "name"> DAVID PANER </h1>
+			</div>
+			<div class="slide active" data-anchor="main">
+				<div id="aboutContainer">
+					<a href="#site" class="aboutNav hvr-bob">ABOUT</a>
+				</div>
+				<div id="projectContainer">
+					<a href="#site/projects" class="projectNav hvr-bob">PROJECTS</a>
+				</div>
+				<img id="flag" src="assets/img/phil.png" width="128" , height="128" alt="ph" />
+				<h1 id="name"> DAVID PANER </h1>
 				<p id='me'></p>
 				<div id="contactIcons">
-						<a href="https://www.linkedin.com/in/david-paner-626443173/" class = "hvr-bob" target="_blank"><img id = "li" src="assets/img/li.png" width="64", height="64" alt="linkedin"/></a>
-						<a href="https://www.facebook.com/david.paner.5" class = "hvr-bob" target="_blank"><img id = "fb"  src="assets/img/fb.png" width="64", height="64" alt="facebook"/></a>
-						<a href="assets/David Paner Resume.pdf" class = "hvr-bob" download><img id = "r" src="assets/img/re.png" width="64", height="64" alt="resume"/>
-						<a href="https://www.instagram.com/davdpanr/" class = "hvr-bob" target="_blank"><img id = "ig" src="assets/img/instagram.png" width="64", height="64" alt="instagram"/></a>
-				<h2 id = "navAbout"> ABOUT </h2>
-		<div id = "nina" class="slide">
+					<a href="https://www.linkedin.com/in/david-paner-626443173/" class="hvr-bob" target="_blank"><img id="li" src="assets/img/li.png" width="64" , height="64" alt="linkedin" /></a>
+					<a href="https://www.facebook.com/david.paner.5" class="hvr-bob" target="_blank"><img id="fb" src="assets/img/fb.png" width="64" , height="64" alt="facebook" /></a>
+					<a href="assets/David Paner Resume.pdf" class="hvr-bob" download><img id="r" src="assets/img/re.png" width="64" , height="64" alt="resume" />
+						<a href="https://www.instagram.com/davdpanr/" class="hvr-bob" target="_blank"><img id="ig" src="assets/img/instagram.png" width="64" , height="64" alt="instagram" /></a>
+				</div>
+			</div>
 
-			<div class ="slideshow-container">
-			<div class="mySlides fade">
+			<div id="nina" class="slide" data-anchor="projects">
+				<div id="prevContainer">
+					<a href="#site/main" class="backNav hvr-backward"><</a>
 
-    		<img src="assets/img/1.jpg" style="width:100%">
+			</div>
+				<div class="slideshow-container">
+					<div class="mySlides fade">
 
-  		</div>
-		<div class="mySlides fade">
+						<img src="assets/img/1.jpg" style="width:100%">
 
-    	<img src="assets/img/2.jpg" style="width:100%">
-  	</div>
-		<div class="mySlides fade">
-			<img src="assets/img/3.jpg" style="width:100%">
-		</div>
-		<div class="mySlides fade">
+					</div>
+					<div class="mySlides fade">
 
-			<img src="assets/img/4.jpg" style="width:100%">
-		</div>
-		<div class="mySlides fade">
-			<img src="assets/img/5.jpg" style="width:100%">
-		</div>
+						<img src="assets/img/2.jpg" style="width:100%">
+					</div>
+					<div class="mySlides fade">
+						<img src="assets/img/3.jpg" style="width:100%">
+					</div>
+					<div class="mySlides fade">
 
-		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-	<span class="dot" onclick="currentSlide(4)"></span>
-	<span class="dot" onclick="currentSlide(5)"></span>
-</div>
-</div>
+						<img src="assets/img/4.jpg" style="width:100%">
+					</div>
+					<div class="mySlides fade">
+						<img src="assets/img/5.jpg" style="width:100%">
+					</div>
+
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+				<br>
+				<div style="text-align:center">
+					<span class="dot" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
+					<span class="dot" onclick="currentSlide(4)"></span>
+					<span class="dot" onclick="currentSlide(5)"></span>
+				</div>
+			</div>
 
 
 		</div>
 	</div>
 </body>
+
 </html>
