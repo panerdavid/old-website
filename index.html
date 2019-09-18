@@ -6,8 +6,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
 	<script src="fullpage.min.js"></script>
-	<script src="https://use.fontawesome.com/c863668636.js"></script>
+	
 	<link rel="stylesheet" href="fullpage.css">
+	<link href="/icons/css/all.css" rel="stylesheet">
 	<script src="assets/js/script.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
@@ -29,8 +30,7 @@
 				<h1 id="greeting"><b>HOW IS IT GOING? </b></h1>
 				<div id="blurb">
 					<p>My name is David, and I'm from the Bay Area. I am a third year at UC Berkeley studying <a
-							href="https://eecs.berkeley.edu/academics/undergraduate/cs-ba" class="hvr-skew"
-							target="_blank" class="des">Computer
+							href="https://eecs.berkeley.edu/academics/undergraduate/cs-ba" class="hvr-skew" target="_blank" class="des">Computer
 							Science</a> and <a href="https://data.berkeley.edu/" class="hvr-skew" target="_blank"
 							class="des">Data Science.</a> </p>
 					<p>At Berkeley, I'm a part of <a href="https://beam.berkeley.edu/" class="hvr-skew" target="_blank"
@@ -64,86 +64,88 @@
 					<img id="flag" src="assets/img/phil.png" width="128" , height="128" alt="ph" />
 					<h1 id="name"> DAVID PANER </h1>
 					<p id='me'></p>
+
 					<div id="contactIcons">
 
-						<a href="https://www.linkedin.com/in/david-paner-626443173/" class="hvr-bob" target="_blank"><i
-								class="fab fa-linkedin-in"></i></a>
-						
+						<a href="https://www.linkedin.com/in/david-paner-626443173/" class="hvr-bob"
+							target="_blank"><img id="li" src="assets/img/linkedin.png" width="64" , height="64"
+								alt="linkedin" /></a>
+							
+						<a href="https://www.facebook.com/david.paner.5" class="hvr-bob" target="_blank"><img id="fb"
+								src="assets/img/facebook.png" width="64" , height="64" alt="facebook" /></a>
 
-						<a href="https://github.com/panerdavid" class="hvr-bob" target="_blank"><i class="fab fa-github"></i></a>
+						<a href="assets/David-Paner-Resume.pdf" class="hvr-bob" download><img id="r"
+								src="assets/img/res.png" width="64" , height="64" alt="resume" /></a>
 
-						<a href="https://www.facebook.com/david.paner.5" class="hvr-bob" target="_blank"><i class="fab fa-facebook-f"></i></a>
+							<a href="https://github.com/panerdavid" class="hvr-bob" target="_blank"><img id="ig"
+									src="assets/img/gh.png" width="64" , height="64" alt="github" /></a>
 
-						<a href="assets/David-Paner-Resume.pdf" class="hvr-bob" download><i class="far fa-file"></i></a>
-
-						
 					</div>
 				</div>
 
 				<div id="project" class="slide" data-anchor="projects">
 					<div id="prevContainer">
-						<a href="#site/main" class="backNav hvr-backward">
-						</a> </div>
-					<div class="row">
-						<div class="column">
-							<div class="thumbnail">
-								<img src="assets/img/audioflexica.png" />
-								<div class="caption">
-									<div class="title">
-										<div class="gray">Audioflexica</div>
+						<a href="#site/main" class="backNav hvr-backward"><</a>
+							 </div> <div class="row">
+								<div class="column">
+									<div class="thumbnail">
+										<img src="assets/img/audioflexica.png" />
+										<div class="caption">
+											<div class="title">
+												<div class="gray">Audioflexica</div>
+											</div>
+											<div class="date">October 2018</div>
+											<div class="info">&bull; Audio-responsive mesh that uses a Perlin noise
+												algorithm to randomize and animate the mesh's terrain.
+											</div>
+											<div class="info">&bull; Utilized PYAudio, PyQtGraph, and OpenGL</div>
+											<!--<div class="info">&bull; Created with Python in Codeology </div>-->
+										</div>
 									</div>
-									<div class="date">October 2018</div>
-									<div class="info">&bull; Audio-responsive mesh that uses a Perlin noise
-										algorithm to randomize and animate the mesh's terrain.
-									</div>
-									<div class="info">&bull; Utilized PYAudio, PyQtGraph, and OpenGL</div>
-									<!--<div class="info">&bull; Created with Python in Codeology </div>-->
-								</div>
-							</div>
-							<div class="thumbnailCaption">Audioflexica</div>
+									<div class="thumbnailCaption">Audioflexica</div>
 
-							<div class="thumbnail">
-								<img src="assets/img/tf.png" />
-								<div class="caption">
-									<div class="title">Video Object Detection</div>
-									<div class="date">November 2018</div>
-									<div class="info">&bull;Tensorflow based detection adapted to track custom
-										objects through live video </div>
-									<div class="info">&bull; Created with Python in Codeology</div>
-								</div>
-							</div>
-							<div class="thumbnailCaption">Tensorflow Object Detection</div>
-						</div>
-						<div class="column">
-							<div class="thumbnail">
-								<img src="assets/img/enigma.jpg" />
-								<div class="caption">
-									<div class="title">
-										<div class="gray">Enigma Encryption</div>
+									<div class="thumbnail">
+										<img src="assets/img/tf.png" />
+										<div class="caption">
+											<div class="title">Video Object Detection</div>
+											<div class="date">November 2018</div>
+											<div class="info">&bull;Tensorflow based detection adapted to track custom
+												objects through live video </div>
+											<div class="info">&bull; Created with Python in Codeology</div>
+										</div>
 									</div>
-									<div class="date">October 2018</div>
-									<div class="info">&bull; Recreation of the German Enigma cipher</div>
-									<div class="info">&bull; Simulates the modular nature of the machine,
-										allowing for different rotor settings and encryptions</div>
-									<div class="info">&bull; Created with Java in CS61B: Data Structures</div>
+									<div class="thumbnailCaption">Tensorflow Object Detection</div>
 								</div>
-							</div>
-							<div class="thumbnailCaption">Enigma Machine</div>
+								<div class="column">
+									<div class="thumbnail">
+										<img src="assets/img/enigma.jpg" />
+										<div class="caption">
+											<div class="title">
+												<div class="gray">Enigma Encryption</div>
+											</div>
+											<div class="date">October 2018</div>
+											<div class="info">&bull; Recreation of the German Enigma cipher</div>
+											<div class="info">&bull; Simulates the modular nature of the machine,
+												allowing for different rotor settings and encryptions</div>
+											<div class="info">&bull; Created with Java in CS61B: Data Structures</div>
+										</div>
+									</div>
+									<div class="thumbnailCaption">Enigma Machine</div>
 
-							<div class="thumbnail">
-								<img src="assets/img/amazons.png" />
-								<div class="caption">
-									<div class="title">Game of the Amazons</div>
-									<div class="date">November 2018</div>
-									<div class="info">&bull;Command line version of the chess variant: Game of
-										the Amazons </div>
-									<div class="info">&bull;AI implemented with game trees and alpha-beta
-										pruning </div>
-									<div class="info">&bull; Created with Java in CS61B: Data Structures </div>
+									<div class="thumbnail">
+										<img src="assets/img/amazons.png" />
+										<div class="caption">
+											<div class="title">Game of the Amazons</div>
+											<div class="date">November 2018</div>
+											<div class="info">&bull;Command line version of the chess variant: Game of
+												the Amazons </div>
+											<div class="info">&bull;AI implemented with game trees and alpha-beta
+												pruning </div>
+											<div class="info">&bull; Created with Java in CS61B: Data Structures </div>
+										</div>
+									</div>
+									<div class="thumbnailCaption">Game of the Amazons</div>
 								</div>
-							</div>
-							<div class="thumbnailCaption">Game of the Amazons</div>
-						</div>
 					</div>
 
 
