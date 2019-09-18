@@ -8,6 +8,11 @@ $(document).ready(function() {
 
   });
 
+  $('#contactIcons').click(function() {
+    $('#contactIcons').attr('style', 'display: block !important');
+    $('#contactIcons').css('display', 'block');
+});
+
 
   $('#me').typeIt({
     strings: ["Student", "Musician", "Programmer", "Educator", "Dog lover"],
