@@ -4,10 +4,15 @@ body, html {
   background-color: #ffffff;
 }
 
+a {
+  color: white;
+}
 
 
 .slide-active {
-  background-color: #90ccf4;
+  /* background-color: #90ccf4; */
+  background-color: #DADFF7;
+
 }
 
 #aboutContainer {
@@ -59,32 +64,40 @@ body, html {
 #about {
   position: relative;
   /*background-color: #f78888;*/
-  background-color: #f89f9f;
+  /* background-color: #f89f9f; */
+  background-color: #CEB1BE;
+
 }
 
 #project {
-  background-color: #f3d250;
+  /* background-color: #f3d250; */
+  background-color: #C7DBE6;
+
 }
 
 #greeting {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: Black;
   font-size: 80px;
   position: absolute;
   top: 0px;
   right: 60px;
   text-shadow: 1px 1px 1px #888888;
-  font-weight: 700;
+  /* font-weight: 700; */
+  padding-top: 10px;
+  padding-right: 3%;
+
 }
 
 #blurb {
   font-family: 'Libre Franklin', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   color: black;
   opacity: 0.7;
   margin-right: 100px;
   text-align: left;
   padding-left: 20px;
+  padding-top: 30px;
   font-weight: 300;
   letter-spacing: 1px;
 }
@@ -127,20 +140,25 @@ body, html {
 }
 
 .circle {
-  display: inline-block;
+   display: inline-block;
   height: 350px;
   width: 350px;
-  margin-left: 60px;
+  /* margin-left: 50px; */
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 200px;
-  margin-top: 1%;
+  /* margin-top: 1%; */
   left: 15%;
   transform: translateX(-50%);
-  bottom: 4.5%;
+  /* bottom: 4.5%; */
   overflow: hidden;
   position: relative;
-  box-shadow: 3px 3px 3px #888888;
-  margin-right: 125px;
+  /* box-shadow: 3px 3px 3px #888888; */
+  margin-right: 125px; 
+
+/* 
+  max-width: 350px;
+
+  max-height: 350px; */
 
 }
 
@@ -265,7 +283,7 @@ body, html {
 
 
 .active, .dot:hover {
-  background-color: #90ccf4;
+  background-color: #DADFF7;
 }
 
 
