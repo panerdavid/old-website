@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="fullpage.css">
 	<link href="/icons/css/all.css" rel="stylesheet">
 	<script src="assets/js/script.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Libre+Franklin:100,400" rel="stylesheet">
@@ -26,32 +27,53 @@
 	<div id="wrapper">
 		<div class="section">
 			<div id="about" class="slide" data-anchor="about">
-				<div id="prof"><img class="circle" src="assets/img/prof.jpg" width="500" , height="350"></div>
-				<h1 id="greeting"><b>HOW IS IT GOING? </b></h1>
-				<div id="blurb">
-					<p>My name is David, and I'm from the Bay Area. I am a third year at UC Berkeley studying <a
-							href="https://eecs.berkeley.edu/academics/undergraduate/cs-ba" class="hvr-skew"
-							target="_blank" class="des">Computer
-							Science</a> and <a href="https://data.berkeley.edu/" class="hvr-skew" target="_blank"
-							class="des">Data Science.</a> </p>
-					<p>At Berkeley, I'm a part of <a href="https://beam.berkeley.edu/" class="hvr-skew" target="_blank"
-							class="des">Berkeley Engineers and Mentors (BEAM)</a> where I am given the
-						opportunity to explore my passion for education while teaching and mentoring local elementary
-						school students in STEM.
-						I am also a member of <a href="https://www.codeology.club/about" class="hvr-skew"
-							target="_blank" class="des">Codeology</a> which allowed me to meet and work alongside other
-						motivated students on innovative projects
-						and discover the wide variety of positions the tech industry has to offer.</p>
-					<p>So far my interests in technology include app development, front-end development, and full-stack development. I am grateful to be a part of any internship that involves my passions or
-						interests!</p>
-					<p>In my free time, I enjoy working out, cooking, hanging out with my friends, and playing around
-						with chord voicings and progressions on the piano. Please feel free to reach out to me at <a
-							href="mailto:panerdavid@berkeley.edu?Subject=Hey%20David" class="hvr-skew"
-							class="links">panerdavid@berkeley.edu</a>!</p>
+				<div id="about-row">
+					<img id = "prof" src="assets/img/prof.jpg" width="30%">
+					<div id="about-column">
+						<h1 id="greeting"><b>HOW IS IT GOING? </b></h1>
+						<div id="blurb">
+
+							<p>My name is David, and I'm from the Bay Area. I am a third year at UC Berkeley studying <a
+									href="https://eecs.berkeley.edu/academics/undergraduate/cs-ba" 
+									target="_blank" class="des">Computer
+									Science</a> and <a href="https://data.berkeley.edu/" 
+									target="_blank" class="des">Data Science.</a> I'm currently interested in mobile
+								development, full-stack
+								development, and data science.</p>
+							<p>I'm currently working as a data operations intern at <a href="https://usesimmer.com"
+									target="_blank" class="des">Simmer.</a> On campus, I am involved
+								with <a href="https://beam.berkeley.edu/"  target="_blank"
+									class="des">Berkeley
+									Engineers and Mentors (BEAM)</a> where I help develop and teach lessons to inspire
+								local
+								students of
+								all
+								socioeconomic backgrounds to pursue careers in STEM. I am also a member of <a
+									href="https://www.codeology.club/about" target="_blank"
+									class="des">Codeology</a> which allows me to meet and work alongside other
+								motivated students on innovative projects
+								and explore the many fields the tech industry has to offer. Lastly, I am part of <a
+									href="https://www.ocf.berkeley.edu/~tmc/" target="_blank"
+									class="des">The
+									Music Connection (TMC)</a> where I provide free music tutoring to curious, young
+								musicians
+								in Berkeley.</p>
+
+							<p>I am currently looking for Summer 2020 internships where I can apply and further develop
+								my
+								technical skills and explore my passion for software.</p>
+							<p>In my free time, I enjoy lifting heavy objects at the gym, exploring my culture through
+								cooking, and experimenting
+								with chord voicings and reharmonizations on the piano. Please feel free to reach out to
+								me
+								at <a href="mailto:panerdavid@berkeley.edu?Subject=Hey%20David" 
+									class="links">panerdavid@berkeley.edu</a>!</p>
+						</div>
+					</div>
 
 				</div>
 				<div id="backContainer">
-					<a href="#site/main" class="backNav hvr-forward">></a>
+					<a href="#site/main" class="backNav hvr-forward" style = "margin-top: 120px">></a>
 
 				</div>
 				<div class="slide active" data-anchor="main">
@@ -71,8 +93,8 @@
 							target="_blank"><img id="li" src="assets/img/li.png" width="64" , height="64"
 								alt="linkedin" /></a>
 
-						<a href="https://www.facebook.com/david.paner.5" class="hvr-bob" target="_blank"><img id="socmed"
-								src="assets/img/socmed.png" width="64" , height="64" alt="facebook" /></a>
+						<a href="https://www.facebook.com/david.paner.5" class="hvr-bob" target="_blank"><img
+								id="socmed" src="assets/img/socmed.png" width="64" , height="64" alt="facebook" /></a>
 
 						<a href="assets/paner-david-resume.pdf" class="hvr-bob" download><img id="r"
 								src="assets/img/res.png" width="64" , height="64" alt="resume" /></a>
@@ -86,65 +108,69 @@
 				<div id="project" class="slide" data-anchor="projects">
 					<div id="prevContainer">
 						<a href="#site/main" class="backNav hvr-backward">
-							<</a> </div> <div class="row">
-								<div class="column">
-									<div class="thumbnail">
-										<img src="assets/img/audioflexica.png" />
-										<div class="caption">
-											<div class="title">
-												<div class="gray">Audioflexica</div>
-											</div>
-											<div class="date">October 2018</div>
-											<div class="info">&bull; Audio-responsive mesh that uses a Perlin noise
-												algorithm to randomize and animate the mesh's terrain.
-											</div>
-											<div class="info">&bull; Utilized PYAudio, PyQtGraph, and OpenGL</div>
-											<!--<div class="info">&bull; Created with Python in Codeology </div>-->
-										</div>
+							<</a>
+					</div>
+					<div class="row">
+						<div class="column">
+							<div class="thumbnail">
+								<img src="assets/img/audioflexica.png" />
+								<div class="caption">
+									<div class="title">
+										<div class="gray">Audioflexica</div>
 									</div>
-									<div class="thumbnailCaption">Audioflexica</div>
-
-									<div class="thumbnail">
-										<img src="assets/img/tf.png" />
-										<div class="caption">
-											<div class="title">Video Object Detection</div>
-											<div class="date">November 2018</div>
-											<div class="info">&bull;Tensorflow based detection adapted to track custom
-												objects through live video </div>
-											<div class="info">&bull; Created with Python in Codeology</div>
-										</div>
+									<div class="date">October 2018</div>
+									<div class="info">&bull; Audio-responsive mesh that uses a Perlin noise
+										algorithm to randomize and animate the mesh's terrain.
 									</div>
-									<div class="thumbnailCaption">Tensorflow Object Detection</div>
+									<div class="info">&bull; Utilized PYAudio, PyQtGraph, and OpenGL</div>
+									<!--<div class="info">&bull; Created with Python in Codeology </div>-->
 								</div>
-								<div class="column">
-									<div class="thumbnail">
-										<img src="assets/img/beam.jpg" />
-										<div class="caption">
-											<div class="title">
-												<div class="gray">BEAM Website</div>
-											</div>
-											<div class="date">December 2019</div>
-											<div class="info">&bull; Organization website for Berkeley Engineers and Mentors</div>
-											<div class="info">&bull; <a href = "http://beam.berkeley.edu" target = "_blank">Check it out!</a></div>
-											<div class="info">&bull; Created with HTML, CSS, and Javascript</div>
-										</div>
-									</div>
-									<div class="thumbnailCaption">BEAM Website</div>
+							</div>
+							<div class="thumbnailCaption">Audioflexica</div>
 
-									<div class="thumbnail">
-										<img src="assets/img/amazons.png" />
-										<div class="caption">
-											<div class="title">Game of the Amazons</div>
-											<div class="date">November 2018</div>
-											<div class="info">&bull;Command line version of the chess variant: Game of
-												the Amazons </div>
-											<div class="info">&bull;AI implemented with game trees and alpha-beta
-												pruning </div>
-											<div class="info">&bull; Created with Java in CS61B: Data Structures </div>
-										</div>
-									</div>
-									<div class="thumbnailCaption">Game of the Amazons</div>
+							<div class="thumbnail">
+								<img src="assets/img/tf.png" />
+								<div class="caption">
+									<div class="title">Video Object Detection</div>
+									<div class="date">November 2018</div>
+									<div class="info">&bull;Tensorflow based detection adapted to track custom
+										objects through live video </div>
+									<div class="info">&bull; Created with Python in Codeology</div>
 								</div>
+							</div>
+							<div class="thumbnailCaption">Tensorflow Object Detection</div>
+						</div>
+						<div class="column">
+							<div class="thumbnail">
+								<img src="assets/img/beam.jpg" />
+								<div class="caption">
+									<div class="title">
+										<div class="gray">BEAM Website</div>
+									</div>
+									<div class="date">December 2019</div>
+									<div class="info">&bull; Organization website for Berkeley Engineers and Mentors
+									</div>
+									<div class="info">&bull; <a href="http://beam.berkeley.edu" target="_blank">Check it
+											out!</a></div>
+									<div class="info">&bull; Created with HTML, CSS, and Javascript</div>
+								</div>
+							</div>
+							<div class="thumbnailCaption">BEAM Website</div>
+
+							<div class="thumbnail">
+								<img src="assets/img/amazons.png" />
+								<div class="caption">
+									<div class="title">Game of the Amazons</div>
+									<div class="date">November 2018</div>
+									<div class="info">&bull;Command line version of the chess variant: Game of
+										the Amazons </div>
+									<div class="info">&bull;AI implemented with game trees and alpha-beta
+										pruning </div>
+									<div class="info">&bull; Created with Java in CS61B: Data Structures </div>
+								</div>
+							</div>
+							<div class="thumbnailCaption">Game of the Amazons</div>
+						</div>
 					</div>
 
 
