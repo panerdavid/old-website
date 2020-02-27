@@ -2,6 +2,7 @@ body, html {
   height: 95%;
   margin: 15px;
   background-color: #ffffff;
+  font-family: "Open Sans";
 }
 
 a {
@@ -65,7 +66,7 @@ a {
 #blurb a {
 
   color: Black;
-  font-weight: 700;
+  font-weight: 900;
   opacity: 1;
   text-decoration: none;
   background:
@@ -91,7 +92,7 @@ a {
 
 .projectNav {
   position: absolute;
-  font-family: 'Julius Sans One', sans-serif;
+  /* font-family: 'Julius Sans One', sans-serif; */
   font-size: 40px;
   color: Black;
   opacity: 0.8;
@@ -109,7 +110,7 @@ a {
 
 .aboutNav {
   position: absolute;
-  font-family: 'Julius Sans One', sans-serif;
+  /* font-family: 'Julius Sans One', sans-serif; */
   font-size: 40px;
   color: Black;
   opacity: 0.8;
@@ -155,9 +156,9 @@ a {
   position: absolute;
   color: Black;
   font-size: 100px;
-  font-weight: 400;
+  /* font-weight: 400; */
   text-decoration: none;
-  font-family: "Julius Sans One", sans-serif;
+  /* font-family: "Julius Sans One", sans-serif; */
 }
 
 #prevContainer {
@@ -167,7 +168,7 @@ a {
 }
 
 #me {
-  font-family: 'Libre Franklin', sans-serif;
+  /* font-family: 'Libre Franklin', sans-serif; */
   font-size: 30px;
   color: black;
   opacity: 0.7;
@@ -202,7 +203,7 @@ a {
 
 #name {
   text-align: center;
-  font-family: 'Julius Sans One', sans-serif;
+  /* font-family: 'Julius Sans One', sans-serif; */
   color: black;
   font-size: 90px;
   opacity: 0.8;
@@ -231,7 +232,7 @@ a {
   overflow: hidden;
   transition: all 200ms ease;
   font-size: 14px;
-  font-family: 'Libre Franklin', sans-serif;
+  /* font-family: 'Libre Franklin', sans-serif; */
   font-weight: 400;
   letter-spacing: 1px;
   line-height: 18px;
@@ -270,8 +271,8 @@ a {
 }
 
 .thumbnailCaption {
-  font-family: 'Libre Franklin', sans-serif;
-  font-weight: 550;
+  /* font-family: 'Libre Franklin', sans-serif; */
+  /* font-weight: 550; */
   font-size: 18px;
   text-align: center;
   margin-top: 3px;
